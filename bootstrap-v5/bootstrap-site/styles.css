@@ -1,0 +1,118 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+:root{
+  --primary-color: #a8d741;
+}
+
+section{
+  margin: 100px 0;
+}
+/* custom utilities */
+.bg{
+  background-color: var(--primary-color);
+}
+.text-C{
+  color: var(--primary-color);
+}
+
+.text-grey{
+color: #5a5959;
+}
+
+.bg-body{
+  background-color: #efefef;
+}
+
+.bg-grey{
+  background-color: #ededed;
+}
+.card-bg{
+  background-color: #eee;
+}
+/* /////////////////////////////////// */
+
+.feature i,
+.contact i{
+  font-size: 90px;
+}
+
+/* div hover shadow effect */
+.card:hover,
+.block:hover{
+  box-shadow: 0 50px 50px -25px rgba(0, 0, 0, 0.3);
+  transform: rotate(-2deg) scale(1.03);
+}
+
+/* hovering smooth */
+.block,
+.card,
+.card1,
+.card2{
+  transition: all .5s ;
+}
+
+/* section 2 */
+.card1:hover,
+.card2:hover{
+  transform: rotate(-2deg);
+}
+
+/* //////////////////////////////////////// */
+
+/* buttons style & hover effects */
+.btns{
+  background-color: #a8d741;
+}
+.btnz{
+  background-color: #fff;
+}
+.btns,
+.btnz{
+  border: 3px solid;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+  transition: all .5s;
+}
+
+.btns:hover{
+  background-color: white;
+  box-shadow: 0 27px 30px -20px #000000;
+  transform: scale(1.1) rotateX(1deg) rotateY(0deg) rotateZ(4deg);
+  color: #000000;
+}
+
+.btnz:hover{
+  background-color: var(--primary-color);
+  box-shadow: 0 27px 30px -20px #000000 ;
+  transform: scale(1.1) rotateX(1deg) rotateY(0deg) rotateZ(4deg);
+  color: #000000;
+}
+
+/* section 2 */
+.main-green{
+  height: 600px;
+  margin-bottom: 70px;
+}
+
+.main-green h1{
+  font-size: 70px;
+}
+
+/* card1 font size  */
+.card1 p{
+  font-size: 50px;
+  font-family: 'Inter', sans-serif;
+}
+
+/* section 7 */
+.price h1{
+  font-size:70px;
+}
+
+
+
+
+
